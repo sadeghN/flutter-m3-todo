@@ -1,11 +1,14 @@
-class Task {
+import 'package:hive/hive.dart';
 
-  final String title;
+part 'task.g.dart';
+
+@HiveType(typeId: 0)
+class Task extends HiveObject {
+  @HiveField(0)
+  String title;
+
+  @HiveField(1)
   bool completed;
 
-  Task({
-    required this.title,
-    this.completed = false,
-  });
-
+  Task({required this.title, this.completed = false});
 }
