@@ -1,0 +1,10 @@
+# Ignore web and other platform specific languages from statistics
+web/* linguist-vendored
+android/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+
+# Force Dart to be the main language
+*.dart linguist-detectable=true
