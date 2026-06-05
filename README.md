@@ -61,4 +61,11 @@ Material 3
 
 Author
 Sadegh
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/add_task.jpg" width="300" title="Main Screen">
+  <img src="screenshots/main_page.jpg" width="300" title="Add Task">
+</p>
+
 >>>>>>> 30f4c67458f004cb9bff162fe12ba8d16ef2d6d4
