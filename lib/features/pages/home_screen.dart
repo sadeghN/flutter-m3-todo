@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import '../models/task.dart';
-import '../widgets/task_card.dart';
+import 'package:sadegh/features/models/task.dart';
+import 'package:sadegh/features/widgets/task_card.dart';
+
+
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

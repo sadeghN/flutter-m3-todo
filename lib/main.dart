@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sadegh/pages/home_screen.dart';
-import 'core/theme/app_theme.dart';
+import 'package:sadegh/features/pages/home_screen.dart';
+
+import 'package:sadegh/core/theme/app_theme.dart';
+
+
 
 
 void main() {
